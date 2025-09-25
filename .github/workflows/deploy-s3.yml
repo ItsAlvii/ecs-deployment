@@ -2,7 +2,7 @@ name: Deploy Frontend to S3
 
 on:
   push:
-    branches: [ "ecs-deploy" ]  # Branch that triggers deploy
+    branches: [ "main" ]  # Branch that triggers deploy
 
 jobs:
   deploy:
